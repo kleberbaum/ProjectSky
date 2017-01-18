@@ -10,6 +10,12 @@ h2
     color: white;
 }
 
+a
+{
+    text-decoration: none;
+    color: #000000;
+}
+
 /************************************************************************************************************************/
 
 @media only screen and (max-width: 1440px)
@@ -158,7 +164,7 @@ article input
     flex: 1;
     margin: 10px;
     padding: 10px;
-    background-color: #fff;
+    background-color: #ffffff;
     box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.25);
 }
 
@@ -250,8 +256,8 @@ article input
     position: relative;
     border-radius: 100%;
     display: inline-flex;
-    background-color: #fff;
-    border: 1px solid #000;
+    background-color: #ffffff;
+    border: 1px solid #000000;
 }
 
 .oculus-nav-dots .oculus-nav-dot:hover {
@@ -372,11 +378,5 @@ footer
     align-items: center;
     min-height: 23px;
     padding: 3px;
-    background-color: #fff;
-}
-
-footer a
-{
-    color: #000;
-    text-decoration: none;
+    background-color: #ffffff;
 }
