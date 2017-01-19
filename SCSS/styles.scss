@@ -1,0 +1,75 @@
+@import "animations";
+@import "viewport";
+@import "motto";
+@import "about";
+@import "nyan";
+@import "sharingan";
+
+/*font*******************************************************************************************************************/
+
+h2 {
+  font-family: 'Noto Sans';
+  font-weight: 500;
+  font-size: 50px;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+/************************************************************************************************************************/
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  min-width: 804px;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: 'Noto Sans';
+  font-weight: lighter;
+  letter-spacing: 2px;
+  background-attachment: fixed;
+  background-image: url(https://erebos.xyz/PIC/m33.png);
+  font-weight: 500;
+  font-size: 16px;
+}
+
+header {
+  position: relative;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  min-height: 666px;
+}
+
+article {
+  
+}
+
+section {
+  position: sticky;
+  top: 0px;
+  display: flex;
+  width: 100%;
+  min-height: 666px;
+}
+
+footer {
+  display: none;
+  flex-flow: column, wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 23px;
+  padding: 3px;
+  background-color: #ffffff;
+}

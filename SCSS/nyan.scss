@@ -1,0 +1,14 @@
+/*section*nyan***********************************************************************************************************/
+
+.nyan {
+  overflow: hidden;
+  position: relative;
+  min-height: 500px;
+  background-color: rgba(6, 85, 177, 0.63);
+  a {
+    position: absolute;
+    height: 200px;
+    top: 150px;
+    right: 50px;
+  }
+}
